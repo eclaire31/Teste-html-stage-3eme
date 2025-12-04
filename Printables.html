@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Index</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <style>
+        .group2 {
+            display: grid;
+            grid-template-columns: min-content auto;
+            grid-template-rows: min-content min-content;
+        }
+        #a {
+            display: inline-block;
+            grid-row: 1/3;
+            grid-column: 1/2;
+            position: relative;
+        }
+
+        .cta:hover {
+            background: linear-gradient(#696484, #8788ba);
+            text-decoration: none;
+        }
+        #a-texte {
+            visibility: hidden;
+        }
+        #a-texte:hover {
+            visibility: visible;
+        }
+
+        #b {
+            grid-column: 2/3;
+            grid-row: 1;
+        } 
+        
+        #c {
+            grid-column: 2/3;
+            grid-row: 2;
+        }
+    </style>
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="Printables.html">Printables</a>
+            <a href="learn.html">Page d'apprentisage HTML</a>
+            <a href="test.html">Page de teste</a>
+            <a href="Credit.html">Credit</a>
+        </nav>
+        <main>
+            <h1>Printables</h1>
+            <div class="group2">
+                <section class="border" id="a"><a href="https://printables.com"><img src="img/Logo-printables.jpg"></a><p id="texte">Voir l'image</p></section>
+                <section class="border" id="b">
+                    <h2>Printables c'est quoi ?</h2>
+                    <p><a href="https://printables.com" title="Allez sur le site de printables">Printables</a> est un site développer par Prusa</p>
+                </section>
+                <section class="border" id="c">
+                    <h2>Est-ce que c'est que pour les Prusa ?</h2>
+                    <p>Non, le site propose des compabilité avec d'autre types d'imprimante.</p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <em>Développer par eclaire31</em>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,122 @@
+body {
+    background-image: url('img/ImageBG3.jpg');
+    font-family: "Silkscreen", sans-serif;
+    color: white;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Nabla", sans-serif;
+    font-size: 4em;
+    margin: 0px;
+}
+
+header {
+  visibility: hidden;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  font-size: 2.75em;
+}
+
+.element {
+    font-size: 25px;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.group {
+  display: grid;
+  grid-template-columns: 49% 51%;
+}
+
+.border{
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin: 10px;
+  padding: 10px;
+}
+
+.border:hover {
+  background-color: rgba(0, 0, 0, 0.7) ;
+}
+
+.visible {
+  background: local;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.demo {
+  background-color: rgba(0, 128, 0, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.info{
+  font-size: 0.75em;
+}
+
+footer {
+  text-align: right;
+  vertical-align: baseline;
+}
+
+.section html {
+  border: 2px solid rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+}
+
+nav {
+  text-align: center;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  width: auto;
+}
+
+a:link {
+        text-decoration: none;
+        color: greenyellow;
+}
+a:visited {
+  text-decoration: none;
+  color: greenyellow;
+}
+a:hover {
+  text-decoration: underline;
+  color: greenyellow;
+}
+a:active {
+  text-decoration: underline;
+  color: greenyellow;
+}
+
+@media all and (orientation: portrait) {
+  body {
+    visibility: hidden;
+    
+  }
+  html {
+    background-image: url('img/Version\ mobile\ non\ disponible.jpg');
+    background-position: center 0%;
+    background-size: cover;
+    background-blend-mode: color;
+  }
+}
+/* Sur tous types d'écrans orientés verticalement */
